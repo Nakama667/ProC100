@@ -5,8 +5,8 @@ class Atm:
     def Verify (self):
         yourCard = int(input("Digite o numero do seu cartão: "))
         if self.cardNumber == yourCard:
-            print("Verified")
+            print("Verification")
         else:
-            print("Wrong Number")
+            print("Erradation")
 c1 = Atm(1234321)
 c1.Verify()
